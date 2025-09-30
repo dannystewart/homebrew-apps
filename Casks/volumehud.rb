@@ -15,4 +15,13 @@ cask "volumehud" do
   depends_on macos: ">= :tahoe"
 
   app "volumeHUD.app"
+
+  uninstall quit:       "com.dannystewart.volumehud",
+            login_item: "volumeHUD"
+
+  zap trash: [
+    "~/Library/Preferences/com.dannystewart.volumehud.plist",
+    "~/Library/Saved Application State/com.dannystewart.volumehud.savedState",
+    "~/Library/Caches/com.dannystewart.volumehud",
+  ]
 end
