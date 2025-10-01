@@ -24,4 +24,11 @@ cask "volumehud" do
     "~/Library/Saved Application State/com.dannystewart.volumehud.savedState",
     "~/Library/Caches/com.dannystewart.volumehud",
   ]
+
+  conflicts_with cask: "volumehud-beta"
+
+  caveats <<~EOS
+    To run on startup, add the app to System Settings > General > Login Items & Extensions > Open at Login.
+    To report bugs, please visit the GitHub repository: https://github.com/dannystewart/volumeHUD/issues
+  EOS
 end
