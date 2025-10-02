@@ -23,9 +23,12 @@ cask "volumehud-beta" do
             login_item: "volumeHUD"
 
   zap trash: [
-    "~/Library/Preferences/com.dannystewart.volumehud.plist",
-    "~/Library/Saved Application State/com.dannystewart.volumehud.savedState",
     "~/Library/Caches/com.dannystewart.volumehud",
+    "~/Library/Caches/com.dannystewart.volumehud.debug",
+    "~/Library/Preferences/com.dannystewart.volumehud.plist",
+    "~/Library/Preferences/com.dannystewart.volumehud.debug.plist",
+    "~/Library/Saved Application State/com.dannystewart.volumehud.savedState",
+    "~/Library/Saved Application State/com.dannystewart.volumehud.debug.savedState",
   ]
 
   conflicts_with cask: "dannystewart/apps/volumehud"
