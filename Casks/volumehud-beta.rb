@@ -28,7 +28,7 @@ cask "volumehud-beta" do
     "~/Library/Caches/com.dannystewart.volumehud",
   ]
 
-  conflicts_with cask: "volumehud"
+  conflicts_with cask: "dannystewart/apps/volumehud"
 
   caveats <<~EOS
     WARNING: This is a beta version of volumeHUD. When the next stable release is available,
