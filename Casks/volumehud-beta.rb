@@ -1,6 +1,6 @@
 cask "volumehud-beta" do
-  version "2.0-rc.2"
-  sha256 "164082cff17b914b88e86ed36761bfa36b71c217fc5b83303779501908891bda"
+  version "2.0-rc.3"
+  sha256 "a29b1cba5a1f3a7a52d4c1acbcca3cbb9fbb5103082a97fa2e6cb03ad7ac35e6"
 
   url "https://files.dannystewart.com/apps/releases/volumeHUD-#{version}.dmg"
   name "volumeHUD beta"
