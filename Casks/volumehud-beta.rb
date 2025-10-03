@@ -37,8 +37,8 @@ cask "volumehud-beta" do
     WARNING: This is a beta version of volumeHUD. When the next stable release is available,
     you will need to MANUALLY uninstall the beta and reinstall the stable version:
 
-    $ brew uninstall volumehud-beta
-    $ brew install dannystewart/apps/volumehud
+        $ brew uninstall volumehud-beta
+        $ brew install dannystewart/apps/volumehud
 
     To report bugs, please visit the GitHub repository: https://github.com/dannystewart/volumeHUD/issues
   EOS
