@@ -1,6 +1,6 @@
 cask "volumehud-beta" do
-  version "2.0-beta.4"
-  sha256 "f670a7502081b6a515380d5c9b6e0c76baea11cdd4782ed5f7d8098e6629b891"
+  version "2.0.0"
+  sha256 "ef7a77f6b71515d699c6ebbd29fb29c0cce799ad5d84f0c8cdb55513076654c0"
 
   url "https://files.dannystewart.com/apps/releases/volumeHUD-#{version}.dmg"
   name "volumeHUD beta"
@@ -13,7 +13,7 @@ cask "volumehud-beta" do
     regex(/volumeHUD-(\d+\.\d+-beta\d+)\.dmg/i)
   end
 
-  # deprecate! date: "2025-10-01", because: "no active beta; use dannystewart/apps/volumehud instead"
+  deprecate! date: "2025-10-04", because: "no active beta; use dannystewart/apps/volumehud instead"
 
   depends_on macos: ">= :tahoe"
 
@@ -34,8 +34,8 @@ cask "volumehud-beta" do
   conflicts_with cask: "dannystewart/apps/volumehud"
 
   caveats <<~EOS
-    WARNING: This is a beta version of volumeHUD. When the next stable release is available,
-    you will need to MANUALLY uninstall the beta and reinstall the stable version:
+    WARNING: volumeHUD 2.0 is NO LONGER IN BETA AND THIS CASK WILL NO LONGER BE UPDATED.
+    You should MANUALLY UNINSTALL the beta and reinstall the stable version:
 
         $ brew uninstall volumehud-beta
         $ brew install dannystewart/apps/volumehud
