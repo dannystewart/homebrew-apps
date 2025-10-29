@@ -1,6 +1,6 @@
 cask "volumehud" do
-  version "2.1.0"
-  sha256 "43ecf3daef6b25246e744bf516fc1bed0d987907d7f8230f2f9d5f8561207047"
+  version "2.2.0"
+  sha256 "3f58b13a10d646ecee6d82b92d7858640304d37642621ccc44972c0ce53a927d"
 
   url "https://github.com/dannystewart/volumeHUD/releases/download/v#{version}/volumeHUD-#{version}.dmg"
   name "volumeHUD"
@@ -20,9 +20,11 @@ cask "volumehud" do
             login_item: "volumeHUD"
 
   zap trash: [
+    "~/Library/Application Support/volumeHUD",
+    "~/Library/Caches/com.dannystewart.volumehud",
+    "~/Library/Logs/volumeHUD",
     "~/Library/Preferences/com.dannystewart.volumehud.plist",
     "~/Library/Saved Application State/com.dannystewart.volumehud.savedState",
-    "~/Library/Caches/com.dannystewart.volumehud",
   ]
 
   conflicts_with cask: "dannystewart/apps/volumehud-beta"
