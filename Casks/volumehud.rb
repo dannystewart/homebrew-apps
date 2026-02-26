@@ -1,10 +1,10 @@
 cask "volumehud" do
-  version "3.1.0"
-  sha256 "9d3f49015f8f4f8269c7e87bba663ab0ab55bbf7a0c4c0258de10564e6ea9827"
+  version "3.2.0"
+  sha256 "4a655aeec5c91423b653c09c1c213e2348144ed3ce10e60057ed555549febe99"
 
   url "https://github.com/dannystewart/volumeHUD/releases/download/v#{version}/volumeHUD-#{version}.dmg"
   name "volumeHUD"
-  desc "Restores the macOS volume HUD from pre-Tahoe"
+  desc " Bring back the pre-Tahoe macOS volume and brightness HUDs "
   homepage "https://github.com/dannystewart/volumeHUD"
 
   livecheck do
