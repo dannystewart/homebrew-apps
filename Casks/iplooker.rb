@@ -1,6 +1,6 @@
-cask "iplooker" do
-  version "1.0.0"
-  sha256 "53c49dba67b2584a00feff9bb698c5dfd2c645c1844c45255df2c9e699ab0816"
+cask 'iplooker' do
+  version '1.0.1'
+  sha256 '5989111767a60ca8b88f0886a5dce9ae0cec72b295057131a440c8b93109f54c'
 
   url "https://github.com/dannystewart/IPLookerApp/releases/download/v#{version}/IPLooker-#{version}.dmg"
   name 'IPLooker'
