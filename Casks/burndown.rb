@@ -1,6 +1,6 @@
 cask 'burndown' do
-  version '1.0.0'
-  sha256 'f76489b8b0f6b97474a3f3db6277ee4ff1979b941bbce2440e43ce20a25a032f'
+  version '1.1.0'
+  sha256 '23f25d8b5cf80d0d6a69896f2e8956ee52902ad73f93b8a465cf44c101780a78'
 
   url "https://github.com/dannystewart/Burndown/releases/download/v#{version}/Burndown-#{version}.dmg"
   name 'Burndown'
