@@ -1,6 +1,6 @@
 cask 'anchor' do
-  version '1.0.0'
-  sha256 '35623e599e7583f1cbd9706d886dcb02c7d4dae16c7ea1c0b84b0f4c9fdfd450'
+  version '1.0.1'
+  sha256 '4a6f7d2df9f50db13b2632636f9826eb5f54d2d02cf1670b40e35aa4ec34bfc9'
 
   url "https://github.com/dannystewart/Anchor/releases/download/v#{version}/Anchor-#{version}.dmg"
   name 'Anchor'
